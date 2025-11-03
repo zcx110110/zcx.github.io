@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人自我介绍</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background: #f5f7fa; padding: 2rem; }
+        .card { max-width: 600px; margin: 0 auto; background: white; border-radius: 12px; padding: 2.5rem; box-shadow: 0 2px 15px rgba(0,0,0,0.08); }
+        .avatar { width: 160px; height: 160px; border-radius: 50%; margin: 0 auto 1.5rem; overflow: hidden; border: 4px solid #e8f4f8; }
+        .avatar img { width: 100%; height: 100%; object-fit: cover; }
+        h1 { text-align: center; color: #2d3748; font-size: 1.8rem; margin-bottom: 0.5rem; }
+        .title { text-align: center; color: #4299e1; font-weight: 600; margin-bottom: 2rem; }
+        .info { line-height: 1.8; color: #4a5568; margin-bottom: 1.5rem; }
+        .info span { color: #2d3748; font-weight: 600; }
+        .strengths { margin-top: 2rem; }
+        .strengths h3 { color: #2d3748; margin-bottom: 1rem; font-size: 1.2rem; }
+        .strengths ul { list-style: none; display: flex; flex-wrap: wrap; gap: 0.8rem; }
+        .strengths li { background: #e8f4f8; color: #4299e1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- 头像区域 -->
+        <div class="avatar">
+            <img src="IMG_0640.png" alt="个人头像">
+        </div>
+        
+        <!-- 基本信息 -->
+        <h1>张三</h1>
+        <div class="title">前端开发工程师 | 3年经验</div>
+        
+        <div class="info">
+            <p>大家好！我是<span>张三</span>，一名热爱技术、追求极致的前端开发工程师。</p>
+            <p>擅长 <span>HTML/CSS/JavaScript</span> 开发，熟悉 Vue、React 等框架，喜欢通过代码打造流畅的用户体验。</p>
+            <p>性格开朗随和，注重团队协作，平时喜欢研究新技术、逛技术社区，也爱爬山和摄影～</p>
+        </div>
+        
+        <!-- 个人优势 -->
+        <div class="strengths">
+            <h3>我的核心优势</h3>
+            <ul>
+                <li>响应式布局开发</li>
+                <li>组件化设计</li>
+                <li>性能优化</li>
+                <li>用户体验设计</li>
+                <li>快速问题排查</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
